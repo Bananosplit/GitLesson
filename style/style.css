@@ -1,3 +1,14 @@
 body {
-  background-color:#008B8B;
+
+}
+
+.box{
+  border: 2px dashed silver;
+  height: 20px;
+}
+
+.box2 {
+  border: 20px dashed silver;
+  height: 500px;
+  weight: 200px;
 }
