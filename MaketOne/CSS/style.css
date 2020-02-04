@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  width: 100%;
+  clear: both;
+}
+header {
+  background: url(../img/pexels-photo-35605226.jpg) no-repeat center top/cover;
+  padding-bottom: 160px;
+}
+
+.container{
+  width:1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  margin-top: 50px;
+  float: left;
+}
+
+nav {
+  float: right;
+  margin-top: 45px;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+.menu li {
+  float:left;
+  display: block;
+  margin-right: 50px;
+
+}
+.menu li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+}
+.titleDev {
+  margin-top: 25px;
+  font-size: 22px;
+  font-family: Arial, serif;
+  color: #ffffff;
+  text-align: center;
+}
+h1 {
+  margin-top: 240px;
+  font-size: 60px;
+  font-family: Myriad pro, Arial, sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+
+.button {
+  font-size: 20px;
+  background-color: #00897b;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 220px;
+  margin-top: 40px;
+}
+
+/* section two*/
+
+.titleTwo {
+  margin-top: 125px;
+}
+.titleTwo h2 {
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+}
+.titleTwo p {
+  font-size: 15px;
+  text-align: center;
+  margin: 5;
+}
+
+.servises {
+  margin-top: 130px;
+  padding-bottom: 125px;
+}
+.serviseItemOne {
+  width: 250px;
+  float: left;
+  text-align: center;
+}
+
+.serviseItemOne p {
+  line-height: 1.5em;
+}
+
+.serviseItemOne h3 {
+
+}
+
+.serviseItemOne:last-child {
+  float: right;
+}
+.serviseItemOne:nth-child(2) {
+  margin-left: 225px;
+}
+/*section three*/
+
+#our_servise {
+  padding-top: 150px;
+  background-color: #ccffff;
+}
+.layers {
+  margin-top: 120px;
+}
+.layers img {
+  float: left;
+}
+
+.layers img:last-child {
+  float: right;
+}
+.layers img:nth-child(2){
+  margin-left: 45px;
+}
+
+/*four section*/
+#blog {
+  background-color: #f0f1f1;
+  padding-top: 150px;
+}
+
+.titleMy {
+  padding-bottom: 130px;
+}
+
+.titleMy h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.titleMy p {
+  text-align: center;
+}
+.descrip {
+  padding-top: 50px;
+}
+.descrip p {
+  text-align: center;
+
+}
+.descrip h3 {
+  text-align: center;
+
+  color: #09ab9c;
+}
+
+.rowOne a {
+  float: left;
+}
+.rowtwo a  {
+  float: right;
+}
+/*footer*/
+
+footer {
+  background-color: #ffffff;
+}
+.fot p {
+  text-align: center;
+}
