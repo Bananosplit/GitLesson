@@ -1,0 +1,276 @@
+body {
+  font-family: font-family: 'Sintony', sans-serif;
+  color: #5c6369;
+}
+
+ul li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/*Header*/
+
+.mainheader {
+  padding: 24px 0;
+}
+.menu {
+    margin-top: 10px;
+}
+.menu__item {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.menu__item a {
+  text-decoration: none;
+  color: #2c465a;
+  text-transform: uppercase;
+}
+
+.book {
+  font-weight: 700;
+  background-color: #fea100;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 18px 0;
+  display: block;
+  width: 200px;
+  border: 0;
+  margin-top: -5px;
+}
+
+.cta {
+  font-weight: 700;
+  background-color: #fea100;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 18px 0;
+  display: block;
+  width: 200px;
+  border: 0;
+  margin-top: -5px;
+}
+.book__icon {
+  background: url(../img/order.png);
+  width: 21px;
+  height: 17px;
+  display: block;
+  margin-right: 14px;
+}
+/*Second pars*/
+h1 h2 h3 h4 h5 h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+.offer {
+  background: url('../img/first-bg.jpg') no-repeat center top ;
+  height: 570px;
+
+}
+
+.mainTtitle {
+  padding: 235px 0;
+}
+.mainTtitle__main {
+  font-size: 56px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.mainTtitle__desk {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: -10px;
+}
+.mainTtitle__desk span {
+  color: #fea100;
+}
+/*three section*/
+.call {
+  padding: 30px 0;
+  margin: 0 auto;
+  background-color: #edf1f3;
+}
+
+.phone {
+  width: 500px;
+}
+.yelow {
+  color: #fea100;
+}
+.phone__text {
+  background: url(../img/phone.png) no-repeat, left center;
+  font-size: 14px;
+  text-transform: uppercase;
+  width: 180px;
+  padding-left: 56px;
+
+}
+.phone__text span {
+  font-size: 16px;
+  display: block;
+}
+.phone__number {
+
+  margin-top: -10px;
+  margin-left: 42px;
+  font-size: 32px;
+  font-family:'Playfair Display', serif; ;
+}
+
+
+/*section 3*/
+.history {
+  padding-bottom: 100px;
+  padding-top: 115px;
+}
+
+
+.history__title {
+  font-size: 35px;
+  color: #14141d;
+  margin-bottom: 40px;
+
+}
+
+.history__text {
+  font-size: 14px;
+  color: #14141d;
+  line-height: 2em;
+  margin-bottom: 50px;
+}
+
+.history__button{
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  width: 150px;
+}
+
+
+.images{
+
+}
+.images__item{
+  margin-bottom: 10px;
+
+}
+.fd {
+  margin-top: 120px;
+}
+.fh{
+  margin-top: 60px;
+}
+
+/*four section*/
+
+.special{
+  background: url(../img/third-bg.jpg) no-repeat center top;
+  padding-top: 100px;
+}
+.specialTitle {
+  font-size: 35px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+.food{
+  text-align: center;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+  margin-bottom: 130px;
+
+}
+.food__pic{
+    margin-bottom: 60px;
+}
+.food__title{
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.food__text{
+  font-size: 14px;
+  padding: 0 60px;
+}
+
+.food_details{
+  border-top:1px solid #e1e1e1;
+  margin: 0 45px;
+  padding: 22px;
+}
+.home-Delivery {
+  width: 80px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-right: 1px solid #e1e1e1;
+  text-align: left;
+
+}
+
+.home-Delivery span {
+  color: #fe4c8d;
+}
+.phone-number {
+  font-size: 26px;
+  color: #14141d;
+  margin-right: 20px;
+  margin-left: 30px;
+}
+.prise{
+  font-size: 30px;
+}
+
+/*footer*/
+.footer {
+  background-color: #373844;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 72px 107px;
+}
+
+.sosials{
+
+}
+.socials__item a {
+  width: 53px;
+  height: 53px;
+  display: block;
+  overflow: hidden;
+
+}
+
+.sosials__item__f {
+  background: #3b5998 url(../img/fb.png) no-repeat center center;
+  border-radius: 50%;
+}
+
+.sosials__item__t {
+  background: #55acee url(../img/tw.png) no-repeat center center;
+  margin: 0 7px;
+  border-radius: 50%;
+}
+
+.sosials__item__g {
+  background: #dd4b39 url(../img/g.png) no-repeat center center;
+  border-radius: 50%;
+}
+
+.credits {
+  text-transform: uppercase;
+  color: #666972;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 40px;
+
+}
+.line {
+  background: #666972;
+  height: 1px;
+  margin-top: 50px;
+}
